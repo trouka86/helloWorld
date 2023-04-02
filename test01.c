@@ -9,9 +9,7 @@ int main()
     
     printf("Entrez le nombre de termes que vous voulez afficher: ");
     scanf("%d", &n);
-
     printf("Suite de Fibonacci: ");
-
     for (i = 1; i <= n; i++)
     {
         printf("%llu, ", t1);
@@ -20,7 +18,7 @@ int main()
         t2 = nextTerm;
     }
     
-    printf("\n");
+    printf("Hello GitHub !!!\n");
     
     do
     {
